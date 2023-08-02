@@ -1,0 +1,91 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 317px;
+    margin: 40px auto;
+    background: #000000;
+    text-align: center;
+}
+
+ textarea {
+   font-family: 'Inter';  
+   font-weight: 15px;
+   background-color : #444059; 
+   padding: 10px;
+   border-radius: 10px;
+   border: none;
+   margin-bottom: 10px;
+   color: #8F8F8F;
+   height: 118px;
+}
+
+img{
+    max-width: 90px;;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: 'Josefin Sans';
+    font-weight: bold;
+    font-size: 25px;
+    color: #FFFFFF;
+    font-size: 22px;
+}
+
+
+button{
+    font-family: 'Josefin Sans';
+    font-weight: bold;
+    background-color: #28A9F1;
+    border: none;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px;
+    max-width: 317px;
+    margin-bottom: 7px;
+}
+
+
+.button-box{
+    display:flex;
+    gap: 10px;
+    justify-content: space-between;
+   
+
+}
+
+
+
+.from-input,
+.to-input{
+ height: 30px;
+}
+
+
+h2{
+    color:#FFFFFF;
+    font-weight: bold;
+    font-size: 20px;  
+}
+
+p{
+   background: #FFFFFF;
+   color: #1B1924;
+   padding:15px;
+   text-align:left;
+}
+
+p-content{
+    
+}
+
